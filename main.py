@@ -7,7 +7,7 @@ array = np.array(df)
 
 row, col = array.shape
 
-with open('instrumental.txt', 'w') as file:
+with open('output.formatExt', 'w') as file:
     for i in range(row):
         for j in range(col):
             whatsapp_link = 'https://wa.me/91' + str(array[i][j])
